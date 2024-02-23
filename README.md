@@ -12,7 +12,7 @@ You can think of the trunk as a "main" or primary branch. production and prod ar
 Trunk-based development came about to enable continuous integration and continuous delivery by supplying a development model focused on the fast delivery of changes to applications. But this model also works for GitOps repositories because it keeps things simple and more in tune with how Kustomize and Helm work. When you record deltas between environments, you can clearly see what changes will be merged into the trunk. You won’t have to cherry-pick nearly as often, and you’ll have the confidence that what is in your Git repository is what is actually going into your environment. This is what you want in a GitOps workflow.
 
 ### Protected Branch
-All *main* branches will be set as protected branches. This will only allow maintainer level users to merge commits into that branch. This way, users can push to lower branches and use the Pull Request (PR) process to have the owner merge updates into main. [Protected Branch](https://docs.gitlab.com/ee/user/project/protected_branches.html](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
+All *main* branches will be set as protected branches. This will only allow maintainer level users to merge commits into that branch. This way, users can push to lower branches and use the Pull Request (PR) process to have the owner merge updates into main. [Protected Branch](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
 
 
 ### Other Published Guidance
@@ -37,20 +37,23 @@ I have added this section to describe how the SP will proceed on standing up oth
 
 ## Creating a New Project
 
-<div class="center">
-
-```mermaid
-graph LR 
-  A[Group] --> B(SubGroup) --> C([Project Repo])
-```
-</div>
-
 To create a new repository you have a couple of options. The easiest option is to use the ``Template Repository`` to create your new repository.
 
+![](imgs/newFromTemplate.png)
+Create a new repository from the within the template repository
+
+
+![](imgs/newRepoWtemplate.png)
+Using the ``New Repository`` button and selecting the template from the drop down.
+
+
 ![](imgs/CreateNewRepo.png)
+Include all branches
 
 
-**OR** the less perferred method is to just click create new repository. **PLEASE** see below:
+**OR** the less perferred method is to just click create new repository. 
+
+**PLEASE** see below:
 
 **PLEASE REMEMBER TO CREATE:**
 
