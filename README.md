@@ -45,7 +45,12 @@ graph LR
 ```
 </div>
 
-The SalesAmerSP Git structure is made from Group->Project view.
+To create a new repository you have a couple of options. The easiest option is to use the ``Template Repository`` to create your new repository.
+
+![](imgs/CreateNewRepo.png)
+
+
+**OR** the less perferred method is to just click create new repository. **PLEASE** see below:
 
 **PLEASE REMEMBER TO CREATE:**
 
