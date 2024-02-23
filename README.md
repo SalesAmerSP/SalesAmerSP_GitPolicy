@@ -56,8 +56,8 @@ The SalesAmerSP Git structure is made from Group->Project view.
 #### README.md 
 Please use the **README.md** file to explain your repository and any special callouts that need to be addressed. Remember that this may be the only interaction a user has with your repository so the greater the explanation the better.
 
-[Gitlab Markdown Guide]([https://about.gitlab.com/handbook/markdown-guide/](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax))    
-[Mermaid Guide]([https://about.gitlab.com/handbook/tools-and-tips/mermaid/](https://github.com/mermaid-js/mermaid))  
+[Gitlab Markdown Guide](https://about.gitlab.com/handbook/markdown-guide/](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)    
+[Mermaid Guide](https://about.gitlab.com/handbook/tools-and-tips/mermaid/](https://github.com/mermaid-js/mermaid)  
 
 #### .gitignore
 A `.gitignore` is an invaluable file to have in your repository. The file explicitly tells Git what files should not be tracked. Each line in this file
@@ -84,9 +84,9 @@ Branches are not to be used for different environments or projects. For differen
 
 Clone the `dev` repo to your machine. You can clone using the cli command:
 
-`git clone git@gitswarm.f5net.com:<group name>/<sub-group>/<repository> --branch <branch name>`
+`git clone SalesAmerSP/<repository> --branch <branch name>`
 
-Example: `git clone git@gitswarm.f5net.com:cnf-cop-grp/ocp/ocp_4.8.git --branch dev`
+Example: `git clone SalesAmerSP/Ansible_rSeries --branch dev`
 
 To access the clone url you can visit the project page like the example below: 
 
