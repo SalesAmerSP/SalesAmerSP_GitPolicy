@@ -12,7 +12,7 @@ You can think of the trunk as a "main" or primary branch. production and prod ar
 Trunk-based development came about to enable continuous integration and continuous delivery by supplying a development model focused on the fast delivery of changes to applications. But this model also works for GitOps repositories because it keeps things simple and more in tune with how Kustomize and Helm work. When you record deltas between environments, you can clearly see what changes will be merged into the trunk. You won’t have to cherry-pick nearly as often, and you’ll have the confidence that what is in your Git repository is what is actually going into your environment. This is what you want in a GitOps workflow.
 
 ### Protected Branch
-All *main* branches will be set as protected branches. This will only allow maintainer level users to merge commits into that branch. This way, users can push to lower branches and use the Pull Request (PR) process to have the owner merge updates into main. [Protected Branch]([https://docs.gitlab.com/ee/user/project/protected_branches.html](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
+All *main* branches will be set as protected branches. This will only allow maintainer level users to merge commits into that branch. This way, users can push to lower branches and use the Pull Request (PR) process to have the owner merge updates into main. [Protected Branch](https://docs.gitlab.com/ee/user/project/protected_branches.html](https://docs.github.com/en/repositories/configuring-branches-and-merges-in-your-repository/managing-protected-branches/about-protected-branches)
 
 
 ### Other Published Guidance
