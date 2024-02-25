@@ -3,7 +3,7 @@
 ## Git Procedures
 
 ### Trunk-based development
-The recommended workflow for implementing GitOps with Kubernetes manifests is known as trunk-based development. This method defines one branch as the "trunk" and carries out development on each environment in a different short-lived branch. When development is complete for that environment, the developer creates a pull request for the branch to the trunk. Developers can also create a fork to work on an environment, and then create a branch to merge the fork into the trunk.
+The recommended workflow for implementing GitOps is known as trunk-based development. This method defines one branch as the "trunk" and carries out development on each environment in a different short-lived branch. When development is complete for that environment, the developer creates a pull request for the branch to the trunk. Developers can also create a fork to work on an environment, and then create a branch to merge the fork into the trunk.
 
 Once the proper approvals are done, the pull request (or the branch from the fork) gets merged into the trunk. The branch for that feature is deleted, keeping your branches to a minimum. Trunk-based development trades branches for directories.
 
@@ -48,7 +48,7 @@ Using the ``New Repository`` button and selecting the template from the drop dow
 
 
 ![](imgs/CreateNewRepo.png)
-Include all branches
+Make sure to check ``Include all branches`` as the template includes the *main* and *dev* branches to get you started.
 
 
 **OR** the less perferred method is to just click create new repository. 
@@ -130,7 +130,7 @@ git push -u origin cwise-fixSriov`
 
 Please complete your work within your newly created branch.
 
-## Merge Requests
+## Pull Requests
 
 ![](imgs/mr_1.png)
 ![](imgs/mr_2.png)
